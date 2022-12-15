@@ -546,7 +546,7 @@ def create_findsecbugs_xml(rootPackagePath):
             #logger.info("Running FindSecBugs plugin [LOW] on "+name_arch)
             #os.system(command_fsb_low)
             logger.info("Running FindSecBugs plugin [MEDIUM] on " + name_arch)
-            #os.system(command_fsb_medium)
+            os.system(command_fsb_medium)
             #logger.info("Running FindSecBugs plugin [HIGH] on " + name_arch)
             #os.system(command_fsb_high)
             logger.info("End of FindSecBugs plugin on "+name_arch)
