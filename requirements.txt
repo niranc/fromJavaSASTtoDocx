@@ -1,0 +1,10 @@
+R2Log
+rich
+lxml
+pycvss
+cvss
+docxtpl
+argparse
+packaging
+deep_translator
+xml.etree.cElementTree
